@@ -2,6 +2,9 @@
 <map version="1.0" orientation="orthogonal" width="80" height="80" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="terrain" tilewidth="32" tileheight="32">
   <image source="terrain.png" width="1024" height="1024"/>
+  <terraintypes>
+   <terrain name="Neues Terrain erzeugen" tile="-1"/>
+  </terraintypes>
   <tile id="0">
    <properties>
     <property name="testName" value="testValue"/>
